@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="resultBox"><input type="text" id="result" readonly placeholder="0"></div>
+        <div class="options">
+            <button onclick="insertToCal('1')">1</button>
+            <button onclick="insertToCal('2')">2</button>
+            <button onclick="insertToCal('3')">3</button>
+            <button onclick="insertToCal('+')">+</button>
+            <br>
+            <button onclick="insertToCal('4')">4</button>
+            <button onclick="insertToCal('5')">5</button>
+            <button onclick="insertToCal('6')">6</button>
+            <button onclick="insertToCal('-')">-</button>
+            <br>
+            <button onclick="insertToCal('7')">7</button>
+            <button onclick="insertToCal('8')">8</button>
+            <button onclick="insertToCal('9')">9</button>
+            <button onclick="insertToCal('*')">X</button>
+            <br>
+            <button onclick="ClearAll()" style="background-color: rgb(194, 0, 0);">C</button>
+            <button onclick="insertToCal('0')">0</button>
+            <button onclick="insertToCal('/')">÷</button>
+            <button onclick="Calculate('')" style="background: #ffb700;">=</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
